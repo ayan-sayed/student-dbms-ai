@@ -1,0 +1,107 @@
+{
+    "13": {
+        "name": "Aalihan Sayed",
+        "age": 19.0,
+        "course": "BSC Computer Science",
+        "sem": 2,
+        "marks": 7.4
+    },
+    "11": {
+        "name": "Rukhsar Sheikh",
+        "age": 20.0,
+        "course": "BCOM Accounting",
+        "sem": 4,
+        "marks": 9.2
+    },
+    "15": {
+        "name": "Rohan Deshmukh",
+        "age": 20.0,
+        "course": "BTECH Data Science",
+        "sem": 4,
+        "marks": 8.4
+    },
+    "7": {
+        "name": "Zoya Ansari",
+        "age": 19.0,
+        "course": "BBA Marketing",
+        "sem": 2,
+        "marks": 7.25
+    },
+    "4": {
+        "name": "Yash Patil",
+        "age": 18.0,
+        "course": "HSC Science",
+        "sem": 2,
+        "marks": 6.75
+    },
+    "10": {
+        "name": "Aditya Joshi",
+        "age": 21.0,
+        "course": "BCOM Financial Markets",
+        "sem": 6,
+        "marks": 8.9
+    },
+    "5": {
+        "name": "Nikhil Chavan",
+        "age": 30.0,
+        "course": "MBA Finance",
+        "sem": 2,
+        "marks": 6.6
+    },
+    "12": {
+        "name": "Raj Kulkarni",
+        "age": 21.0,
+        "course": "BE Mechanical",
+        "sem": 5,
+        "marks": 6.1
+    },
+    "6": {
+        "name": "Devansh Gupta",
+        "age": 17.0,
+        "course": "Diploma in Animation",
+        "sem": 3,
+        "marks": 7.9
+    },
+    "2": {
+        "name": "Ayesha Siddiqui",
+        "age": 23.0,
+        "course": "BA Psychology",
+        "sem": 6,
+        "marks": 8.05
+    },
+    "3": {
+        "name": "Fiza Qureshi",
+        "age": 25.0,
+        "course": "MSC IT",
+        "sem": 1,
+        "marks": 8.6
+    },
+    "9": {
+        "name": "Ananya Sharma",
+        "age": 22.0,
+        "course": "MA English",
+        "sem": 2,
+        "marks": 7.85
+    },
+    "1": {
+        "name": "Kabir Malhotra",
+        "age": 26.0,
+        "course": "PHD Physics",
+        "sem": 1,
+        "marks": 9.1
+    },
+    "14": {
+        "name": "Tabish Ali",
+        "age": 19.0,
+        "course": "BCA",
+        "sem": 4,
+        "marks": 8.15
+    },
+    "8": {
+        "name": "Sameera Khan",
+        "age": 22.0,
+        "course": "BSC Nursing",
+        "sem": 3,
+        "marks": 9.45
+    }
+}
