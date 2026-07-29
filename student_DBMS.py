@@ -22,8 +22,8 @@ def main_menu():
     print('[1]. Add Student')
     print('[2]. View all Students')
     print('[3]. Search Student')
-    print('[4]. Delete Student')
-    print('[5]. Update student')
+    print('[4]. Update student')
+    print('[5]. Delete Student')
     print('[6]. Ask AI')
     print('[7]. Exit')
     print(' ================================')
@@ -182,8 +182,13 @@ def delete_student(db):
     while True:
         delete_id = input('Enter the student ID: ').strip()
         if delete_id in db:
-            del db[delete_id]
-            print(f'Student ID {delete_id} was deleted successfully!')
+            confirmation = input('Are you sure you want to delete? (y/n): ').lower()
+            if confirmation == 'y':
+                del db[delete_id]
+                print(f'Student ID {delete_id} was deleted successfully!')
+            else:
+                print('Deletion cancelled. ')
+                continue
         else: 
             print('No records found!') 
 
@@ -216,7 +221,7 @@ def ask_ai(db):
 
         try:
             response = client.models.generate_content(
-                model='gemini-2.5-flash' ,
+                model= os.getenv('GEMINI_MODEL', 'gemini-2.5-flash'),
                 contents=prompt
             )
             print(f'\n {response.text} \n')
@@ -228,8 +233,8 @@ def ask_ai(db):
 
 WRITE_ACTIONS = {
     1 : add_student,
-    4 : delete_student,
-    5 : update_student
+    4 : update_student,
+    5 : delete_student
 }
 READ_ACTIONS = {
     2 : view_student,
